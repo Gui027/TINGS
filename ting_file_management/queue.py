@@ -7,8 +7,7 @@ class Queue:
 
     def enqueue(self, value):
         self._data.append(value)
-        
-       
+
     def dequeue(self):
         return self._data.pop(0)
 
@@ -16,4 +15,4 @@ class Queue:
         if 0 > int(index) or int(index) > int(self._data[-1]):
             raise IndexError
         else:
-           return self._data[index]
+            return self._data[index]
