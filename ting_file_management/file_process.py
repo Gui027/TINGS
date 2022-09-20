@@ -31,4 +31,13 @@ def remove(instance):
 
 
 def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+    while position > (len(instance) - 1):
+        return print('Posição inválida', file=sys.stderr)
+    else:
+        path_file = instance.search(position)
+    # print_file = {
+    #     "nome_do_arquivo": path_file
+    #     # "qtd_linhas": len(path_file),
+    #     # "linhas_do_arquivo": ...
+    # }
+    return print(path_file, file=sys.stdout)
