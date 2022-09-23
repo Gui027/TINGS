@@ -1,16 +1,26 @@
-# 🚧 README em construção 🚧
+# Projeto TINGS
 
-<!-- Olá, Tryber!
+# Contexto
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+Neste projeto implementei um programa que simula um algoritmo de indexação de documentos similar ao do Google. O programa é capaz de identificar ocorrências de termos em arquivos TXT.
 
-É essencial que você preencha esse documento por conta própria, ok?
+## Técnologias usadas
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+Back-end:
+> Desenvolvido usando: Python, Pip, Flake8
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
 
--->
+## Instalando Dependências
+
+```bash
+$ python3 -m pip install -r dev-requirements.txt
+``` 
+
+## Executando Testes
+
+* Para rodar todos os testes:
+
+  ```
+   $ python3 -m pytest
+  ```
+
